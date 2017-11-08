@@ -15,10 +15,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "boilerplate": {
-    "name": "applauseasl",
-    "version": "0.1.0"
-  },
   "description": "",
   "author": "",
   "license": "ISC"

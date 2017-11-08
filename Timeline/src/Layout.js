@@ -8,10 +8,11 @@ class Layout extends Component {
       <div className="main-contain">
         <div className="nav">
           <ul>
-            <Link>Timeline</Link>
-            <Link>Map</Link>
+            <Link to="/">Timeline</Link>
+            <Link to="/">Map</Link>
           </ul>
         </div>
+        {this.props.children}
       </div>
     )
   }
